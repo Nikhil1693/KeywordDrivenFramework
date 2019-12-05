@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2019-11-27T17:08:06Z" name="KeywordDrivenFramework" finished-at="2019-11-27T17:08:57Z" duration-ms="50533">
+    <groups>
+    </groups>
+    <test started-at="2019-11-27T17:08:06Z" name="Test Cases" finished-at="2019-11-27T17:08:57Z" duration-ms="50533">
+      <class name="com.nik.KeywordDrivenFW.tests.LoginTest">
+        <test-method signature="login()[pri:0, instance:com.nik.KeywordDrivenFW.tests.LoginTest@1460a8c0]" started-at="2019-11-27T17:08:06Z" name="login" finished-at="2019-11-27T17:08:38Z" duration-ms="31745" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method signature="forgotacc()[pri:1, instance:com.nik.KeywordDrivenFW.tests.LoginTest@1460a8c0]" started-at="2019-11-27T17:08:38Z" name="forgotacc" finished-at="2019-11-27T17:08:57Z" duration-ms="18740" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- forgotacc -->
+      </class> <!-- com.nik.KeywordDrivenFW.tests.LoginTest -->
+    </test> <!-- Test Cases -->
+  </suite> <!-- KeywordDrivenFramework -->
+</testng-results>

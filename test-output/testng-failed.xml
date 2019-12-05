@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [KeywordDrivenFramework]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.nik.ExtentReportListener.ExtentReportNG"/>
+  </listeners>
+  <test thread-count="5" name="Test Cases(failed)">
+    <classes>
+      <class name="com.nik.KeywordDrivenFW.tests.LoginTest">
+        <methods>
+          <include name="login"/>
+          <include name="forgotacc"/>
+        </methods>
+      </class> <!-- com.nik.KeywordDrivenFW.tests.LoginTest -->
+    </classes>
+  </test> <!-- Test Cases(failed) -->
+</suite> <!-- Failed suite [KeywordDrivenFramework] -->
